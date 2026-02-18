@@ -11,9 +11,9 @@ id_envelope,site_id,id_lab,category,confidence,notes
 12500ds_ed1b,125000_ds_ed1,m41347,transcription,medium,Missing zero on envelope. Suffix unclear - list has ed1 and ed1a but not ed1b. Likely 125000_ds_ed1. Check form comments for Sept 18 samples.
 125194_us_ed1b,125194_ds_ed1b,m21243,suffix,high,us/ds swap on envelope. Caitlin noted she is missing the ds sample.
 125231_ds_ed1b,125231_ds_ed1c,m41356,suffix,high,Two envelopes labelled ed1b. Sept 22 envelope should be ed1c. Sept 17 is the real ed1b. Related to issue #116.
-20250930_us_ed1,NA,NA,investigate,medium,Likely office blank processed at airbnb on Sept 30 (gap day between Sept 29 Peacock Creek and Oct 1 field day). No form entry exists. No GPS data for Sept 30. No unmatched UNBC list entries. Check for CH/CO/BT/RB. Needs form entry added if confirmed.
-1970325_us_ed1,203582_us_ed1b,f60507,rename,high,Truncated 19703257 (missing trailing 7) and missing b suffix on envelope. Office blank processed Oct 10. Original field ID renamed to PSCIS 203582. Tabor Creek.
-125261_us_ed1b,NA,NA,not_processed,medium,On UNBC list but missing from Caitlin envelopes. Grab sample collected Sept 17 at fern site but likely never processed back at airbnb. No envelope delivered to UNBC.
+20250930_us_ed1,NA,NA,investigate,medium,Envelope labelled with date instead of site name. No form entry exists. Still investigating on our end.
+1970325_us_ed1,203582_us_ed1b,f60507,rename,high,Truncated 19703257 (missing trailing 7) and missing b suffix on envelope. Original field ID renamed to PSCIS 203582. Tabor Creek.
+125261_us_ed1b,NA,NA,not_processed,medium,On UNBC list but missing from envelopes. Sample likely not delivered. Still investigating on our end.
 196085_us_ed1a,196085_us_ed1a,f41019,minor_label,high,Envelope just says ed1 instead of ed1a. Same sample.
 197962_ds_ed,197962_ds_ed,s60678,minor_label,high,Envelope says ed1 but list has ed. Same sample.
 197962_us_ed,197962_us_ed,s60880,minor_label,high,Envelope says ed1 but list has ed. Same sample.
