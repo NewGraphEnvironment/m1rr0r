@@ -1,0 +1,19 @@
+id_envelope,site_id,id_lab,category,confidence,notes
+15201563_us_ed1,203597_us_ed1,m41367,rename,high,Modelled crossing ID renamed to PSCIS ID after field season (commit 9a3239d). Trib to Nation River.
+15201563_ds_ed1a,203597_ds_ed1a,m41365,rename,high,Modelled crossing ID renamed to PSCIS ID after field season (commit 9a3239d). Trib to Nation River.
+15201563_ds_ed1b,203597_ds_ed1b,m41366,rename,high,Modelled crossing ID renamed to PSCIS ID after field season (commit 9a3239d). Trib to Nation River.
+16401519_us_ed1,203605_us_ed1,m41369,rename,high,Modelled crossing ID renamed to PSCIS ID after field season (commit 9a3239d). Trib to Williston Reservoir.
+1640159_ds_ed1,203605_ds_ed1,m41368,rename,high,Truncated on envelope (missing trailing 9). Original 16401519 renamed to PSCIS 203605 (commit 9a3239d). Trib to Williston Reservoir.
+24403467_ds_ed1,203578_ds_ed1,f61135,rename,high,Modelled crossing ID renamed to PSCIS ID after field season (commit 36ced6b). Trib to Willow River.
+1970325_us_ed1a,203582_us_ed1a,f60506,rename,high,Truncated on envelope (missing trailing 7). Original 19703257 renamed to PSCIS 203582 (commit 36ced6b). Tabor Creek.
+196200_us_ed1,196209_us_ed1,f60808,transcription,high,Transcription error on envelope. Caitlin correctly guessed 196209.
+57495_us_ed1,57695_us_ed1,m21244,transcription,high,Transcription error on envelope. Caitlin correctly guessed 57695.
+12500ds_ed1b,125000_ds_ed1,m41347,transcription,medium,Missing zero on envelope. Suffix unclear - list has ed1 and ed1a but not ed1b. Likely 125000_ds_ed1. Check form comments for Sept 18 samples.
+125194_us_ed1b,125194_ds_ed1b,m21243,suffix,high,us/ds swap on envelope. Caitlin noted she is missing the ds sample.
+125231_ds_ed1b,125231_ds_ed1c,m41356,suffix,high,Two envelopes labelled ed1b. Sept 22 envelope should be ed1c. Sept 17 is the real ed1b. Related to issue #116.
+20250930_us_ed1,NA,NA,investigate,medium,Likely office blank processed at airbnb on Sept 30 (gap day between Sept 29 Peacock Creek and Oct 1 field day). No form entry exists. No GPS data for Sept 30. No unmatched UNBC list entries. Check for CH/CO/BT/RB. Needs form entry added if confirmed.
+1970325_us_ed1,203582_us_ed1b,f60507,rename,high,Truncated 19703257 (missing trailing 7) and missing b suffix on envelope. Office blank processed Oct 10. Original field ID renamed to PSCIS 203582. Tabor Creek.
+125261_us_ed1b,NA,NA,not_processed,medium,On UNBC list but missing from Caitlin envelopes. Grab sample collected Sept 17 at fern site but likely never processed back at airbnb. No envelope delivered to UNBC.
+196085_us_ed1a,196085_us_ed1a,f41019,minor_label,high,Envelope just says ed1 instead of ed1a. Same sample.
+197962_ds_ed,197962_ds_ed,s60678,minor_label,high,Envelope says ed1 but list has ed. Same sample.
+197962_us_ed,197962_us_ed,s60880,minor_label,high,Envelope says ed1 but list has ed. Same sample.
