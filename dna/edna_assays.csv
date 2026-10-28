@@ -1,19 +1,22 @@
-sp_code,sp_common,sp_scientific,assay_id,assay_dye,assay_not_preferred,notes
-CH,Chinook salmon,Oncorhynchus tshawytscha,CHIN-CO1-HEL-FAM,FAM,,
-CH,Chinook salmon,Oncorhynchus tshawytscha,CHIN-CO1-LAR-VIC,VIC,,
-CO,coho salmon,Oncorhynchus kisutch,COHO-CYTB-PIL-FAM,FAM,,
-CO,coho salmon,Oncorhynchus kisutch,COHO-CO1-HEL-VIC,VIC,,
-SK,sockeye salmon,Oncorhynchus nerka,SOCK-CYTC-OXIII-FAM,FAM,,Also used for kokanee (KO)
-SK,sockeye salmon,Oncorhynchus nerka,SOCK-CO1-HEL-VIC,VIC,,Also used for kokanee (KO)
-KO,kokanee,Oncorhynchus nerka,SOCK-CYTC-OXIII-FAM,FAM,,Sockeye assay
-KO,kokanee,Oncorhynchus nerka,SOCK-CO1-HEL-VIC,VIC,,Sockeye assay
-RB,rainbow trout,Oncorhynchus mykiss,RAIN-COI-HEL-VIC,VIC,,Also run where cutthroat is the target; whether it separates cutthroat is to confirm
-BT,bull trout,Salvelinus confluentus,BUT-VIC,VIC,,Detects bull trout and Dolly Varden without separating them; full assay ID to confirm
-DV,Dolly Varden,Salvelinus malma,BUT-VIC,VIC,,Bull trout assay
-GR,Arctic grayling,Thymallus arcticus,GRAY1-R17A-FAM,FAM,,Preferred over GRAY2-HEX-VIC; reason and full assay ID to confirm
-GR,Arctic grayling,Thymallus arcticus,GRAY2-HEX-VIC,VIC,TRUE,Not preferred; dye assumed VIC from the name (HEX reads on the VIC channel); to confirm
-WSG,white sturgeon,Acipenser transmontanus,,FAM,,Assay ID to confirm
-WSG,white sturgeon,Acipenser transmontanus,,VIC,,Assay ID to confirm
-BB,burbot,Lota lota,,FAM,,Assay ID to confirm; untested when it arrived (2026-01)
-CCT,coastal cutthroat trout,Oncorhynchus clarkii clarkii,COCL-CYTB-VIC,VIC,,Target species to confirm: we assumed coastal cutthroat
-PK,pink salmon,Oncorhynchus gorbuscha,,,,No assay yet; assay ID and dye to confirm once there is one
+sp_code,sp_common,sp_scientific,assay_id,assay_dye,assay_not_preferred,notes,to_confirm,run_2025
+CH,Chinook salmon,Oncorhynchus tshawytscha,CHIN-CO1-HEL-FAM,FAM,,,,TRUE
+CH,Chinook salmon,Oncorhynchus tshawytscha,CHIN-CO1-LAR-VIC,VIC,,,,TRUE
+CO,coho salmon,Oncorhynchus kisutch,COHO-CYTB-PIL-FAM,FAM,,,,TRUE
+CO,coho salmon,Oncorhynchus kisutch,COHO-CO1-HEL-VIC,VIC,,,,FALSE
+SK,sockeye salmon,Oncorhynchus nerka,SOCK-CYTC-OXIII-FAM,FAM,,Also used for kokanee (KO),,TRUE
+SK,sockeye salmon,Oncorhynchus nerka,SOCK-CO1-HEL-VIC,VIC,,Also used for kokanee (KO),,TRUE
+KO,kokanee,Oncorhynchus nerka,SOCK-CYTC-OXIII-FAM,FAM,,Sockeye assay,,TRUE
+KO,kokanee,Oncorhynchus nerka,SOCK-CO1-HEL-VIC,VIC,,Sockeye assay,,TRUE
+RB,rainbow trout,Oncorhynchus mykiss,RAIN-COI-HEL-VIC,VIC,,Also run where cutthroat is the target; it does not separate cutthroat from rainbow,,TRUE
+RB,rainbow trout,Oncorhynchus mykiss,,FAM,,Run on FAM for two 2025 samples in group 12 (F21237 and F21238; lab targets RAIN2 and on rerun RAIN),Assay ID; whether RAIN and RAIN2 on FAM are one assay,TRUE
+BT,bull trout,Salvelinus confluentus,BUT-VIC,VIC,,Detects bull trout and Dolly Varden without separating them,Full assay ID,TRUE
+BT,bull trout,Salvelinus confluentus,,FAM,,Run on FAM for 2025 samples in five lab groups,Assay ID; whether it also detects Dolly Varden,TRUE
+DV,Dolly Varden,Salvelinus malma,BUT-VIC,VIC,,Bull trout assay,,TRUE
+GR,Arctic grayling,Thymallus arcticus,GRAY1-R17A-FAM,FAM,,Preferred over GRAY2-HEX-VIC,Why it is preferred; full assay ID,TRUE
+GR,Arctic grayling,Thymallus arcticus,GRAY2-HEX-VIC,VIC,TRUE,Not preferred,Dye: we assumed VIC from the name (HEX reads on the VIC channel),FALSE
+WSG,white sturgeon,Acipenser transmontanus,,FAM,,UNBC has white sturgeon assays in both FAM and VIC,Assay ID,FALSE
+WSG,white sturgeon,Acipenser transmontanus,,VIC,,UNBC has white sturgeon assays in both FAM and VIC,Assay ID,FALSE
+BB,burbot,Lota lota,,FAM,,Published assay (Rodgers et al. 2017); validated with UNBC's synthetic standard but not yet against its local tissue panel,Assay ID,TRUE
+COCL,unknown,unknown,COCL-CYTB-VIC,VIC,,On UNBC's assay list of 2025-11-06,Target species,FALSE
+CCT,coastal cutthroat trout,Oncorhynchus clarkii clarkii,,,,UNBC has no cutthroat assay,,
+PK,pink salmon,Oncorhynchus gorbuscha,,,,UNBC has no pink assay yet,Assay ID and dye once there is one,
