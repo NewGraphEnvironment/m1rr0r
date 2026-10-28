@@ -1,0 +1,14 @@
+sp_code,sp_code_lab,run_rank,notes
+BT,BT,1,
+DV,DV,2,BUT-VIC tests BT and DV without distinguishing them
+GR,GR,3,
+CH,CH,4,
+CO,CO,5,
+BB,BB,6,Assay not yet tested in northern regions
+RB,RB,7,
+SK,SK,8,
+KO,SK,8,Same SOCK assay as SK
+CT,RB,7,No cutthroat assay from UNBC; the rainbow assay is run in its place
+CCT,CCT,9,Assay species unconfirmed; assumed coastal cutthroat
+WSG,WSG,10,
+PK,PK,11,No UNBC assay; flagged rather than swapped

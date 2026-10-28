@@ -1,0 +1,19 @@
+sp_code,sp_common,sp_scientific,assay_id,assay_dye,assay_not_preferred,notes
+CH,Chinook salmon,Oncorhynchus tshawytscha,CHIN-CO1-HEL-FAM,FAM,,
+CH,Chinook salmon,Oncorhynchus tshawytscha,CHIN-CO1-LAR-VIC,VIC,,
+CO,coho salmon,Oncorhynchus kisutch,COHO-CYTB-PIL-FAM,FAM,,
+CO,coho salmon,Oncorhynchus kisutch,COHO-CO1-HEL-VIC,VIC,,
+SK,sockeye salmon,Oncorhynchus nerka,SOCK-CYTC-OXIII-FAM,FAM,,Also used for kokanee (KO)
+SK,sockeye salmon,Oncorhynchus nerka,SOCK-CO1-HEL-VIC,VIC,,Also used for kokanee (KO)
+KO,kokanee,Oncorhynchus nerka,SOCK-CYTC-OXIII-FAM,FAM,,Sockeye assay
+KO,kokanee,Oncorhynchus nerka,SOCK-CO1-HEL-VIC,VIC,,Sockeye assay
+RB,rainbow trout,Oncorhynchus mykiss,RAIN-COI-HEL-VIC,VIC,,Also run where cutthroat is the target; whether it separates cutthroat is to confirm
+BT,bull trout,Salvelinus confluentus,BUT-VIC,VIC,,Detects bull trout and Dolly Varden without separating them; full assay ID to confirm
+DV,Dolly Varden,Salvelinus malma,BUT-VIC,VIC,,Bull trout assay
+GR,Arctic grayling,Thymallus arcticus,GRAY1-R17A-FAM,FAM,,Preferred over GRAY2-HEX-VIC; reason and full assay ID to confirm
+GR,Arctic grayling,Thymallus arcticus,GRAY2-HEX-VIC,VIC,TRUE,Not preferred; dye assumed VIC from the name (HEX reads on the VIC channel); to confirm
+WSG,white sturgeon,Acipenser transmontanus,,FAM,,Assay ID to confirm
+WSG,white sturgeon,Acipenser transmontanus,,VIC,,Assay ID to confirm
+BB,burbot,Lota lota,,FAM,,Assay ID to confirm; untested when it arrived (2026-01)
+CCT,coastal cutthroat trout,Oncorhynchus clarkii clarkii,COCL-CYTB-VIC,VIC,,Target species to confirm: we assumed coastal cutthroat
+PK,pink salmon,Oncorhynchus gorbuscha,,,,No assay yet; assay ID and dye to confirm once there is one
