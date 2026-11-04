@@ -19,4 +19,8 @@ WSG,white sturgeon,Acipenser transmontanus,,VIC,,UNBC has white sturgeon assays 
 BB,burbot,Lota lota,,FAM,,Published assay (Rodgers et al. 2017); validated with UNBC's synthetic standard but not yet against its local tissue panel,Assay ID,TRUE
 COCL,unknown,unknown,COCL-CYTB-VIC,VIC,,On UNBC's assay list of 2025-11-06,Target species,FALSE
 CCT,coastal cutthroat trout,Oncorhynchus clarkii clarkii,,,,UNBC has no cutthroat assay,,
-PK,pink salmon,Oncorhynchus gorbuscha,,,,UNBC has no pink assay yet,Assay ID and dye once there is one,
+PK,pink salmon,Oncorhynchus gorbuscha,,,,Through preliminary testing at UNBC (2026-11-04),Assay ID and dye,FALSE
+CM,chum salmon,Oncorhynchus keta,,,,Through preliminary testing at UNBC (2026-11-04),Assay ID and dye,FALSE
+LT,lake trout,Salvelinus namaycush,,,,Through preliminary testing at UNBC (2026-11-04),Assay ID and dye,FALSE
+CCG,slimy sculpin,Cottus cognatus,,,,Through preliminary testing at UNBC (2026-11-04),Assay ID and dye,FALSE
+BMC,brassy minnow,Hybognathus hankinsoni,,,,Assay started at UNBC but not yet run against many other fish (2026-11-04),Assay ID and dye; whether it is ready to run,FALSE
